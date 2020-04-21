@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'byteWIKI'
-copyright = '2020, Janek Filus, Johannes Böhm'
-author = 'Janek Filus, Johannes Böhm'
+copyright = '2020, Janek Filus, Johannes Böhm and others'
+author = 'Janek Filus, Johannes Böhm and others'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
@@ -55,3 +55,9 @@ html_theme_path = ["_themes", ]
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_theme_options = {
+    'logo_only': False,
+    'navigation_depth': 5,
+}
+html_logo = "../images/bytes.png"

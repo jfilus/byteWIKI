@@ -3,13 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to byteWIKI's documentation!
-====================================
+Welcome to the byteWIKI'!
+=========================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: About
+   :maxdepth: 1
 
+   about
+
+.. toctree::
+   :caption: Documentation
+   :maxdepth: 5
+
+   firststart
+   hardwarepreparation
+   softwaredevelopment
 
 
 Indices and tables
