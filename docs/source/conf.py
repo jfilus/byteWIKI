@@ -61,3 +61,6 @@ html_theme_options = {
     'navigation_depth': 5,
 }
 html_logo = "../images/bytes.png"
+
+# needed by read the docs
+master_doc = 'index'
