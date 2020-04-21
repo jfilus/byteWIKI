@@ -276,3 +276,48 @@ Check generated binary:
 ::
 
    helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
+   
+byteENGINE STM32MP1x
+----------
+
+Source the installed Toolchain:
+
+::
+
+   source /opt/poky-bytesatwork/2.7.2/environment-setup-cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi
+
+Check if Cross-compiler is available in environment:
+
+::
+
+   echo $CC
+
+::
+
+   arm-poky-linux-gnueabi-gcc -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard
+
+::
+
+   -mcpu=cortex-a7
+
+::
+
+   --sysroot=/opt/poky-bytesatwork/2.7.2/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi
+
+Crosscompile the source code, e.g. by:
+
+::
+
+   $CC helloworld.c -o helloworld
+
+Check generated binary:
+
+::
+
+   file helloworld
+
+::
+
+   helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
+
+::
