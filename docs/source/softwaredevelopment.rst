@@ -68,32 +68,32 @@ bytePANEL
 byteDEVKIT
 ----------
 
-* Yocto 3.0 & Yocto 2.7
-   
-Use repo to download all necessary repositories:
+-  **Yocto 2.7 & Yocto 3.0**
 
-::
+   Use repo to download all necessary repositories:
 
-repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior repo sync
+   ::
 
-If those commands are completed successfully, the following command
-will setup a Yocto Project environment for byteDEVKIT:
+      repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior repo sync
 
-::
+   If those commands are completed successfully, the following command
+   will setup a Yocto Project environment for byteDEVKIT:
 
-MACHINE=bytedevkit DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+   ::
 
-The final command builds the development image:
+      MACHINE=bytedevkit DISTRO=poky-bytesatwork EULA=1 . setup-environment build
 
-::
+   The final command builds the development image:
 
-bitbake devbase-image-bytesatwork
+   ::
 
-The output is found in:
+      bitbake devbase-image-bytesatwork
 
-::
+   The output is found in:
 
-tmp/deploy/images/bytedevkit
+   ::
+
+      tmp/deploy/images/bytedevkit
 	
 
 bytePANEL
