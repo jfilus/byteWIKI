@@ -19,6 +19,7 @@ Welcome to the byteWIKI'!
    firststart
    hardwarepreparation
    softwaredevelopment
+   hardwaredevelopment
 
 
 Indices and tables
