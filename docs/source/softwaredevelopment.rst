@@ -125,3 +125,48 @@ bytePANEL
    ::
 
       tmp/deploy/images/bytepanel
+      
+============================================
+4. How do you build an image?
+============================================
+
+byteDEVKIT
+----------
+
+-  **Yocto 2.7**
+
+   ::
+
+      repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior repo sync
+
+   If those commands are completed successfully, the following command
+   will setup a Yocto Project environment for byteDEVKIT:
+
+   ::
+
+      MACHINE=bytedevkit DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+
+   The final command builds an installable toolchain:
+
+   ::
+
+      bitbake devbase-image-bytesatwork -c populate_sdkbytePANEL
+
+-  **Yocto 3.0**
+
+   ::
+
+      repo init -u https://github.com/bytesatwork/bsp-platform.git -b zeus repo sync
+
+   If those commands are completed successfully, the following command
+   will setup a Yocto Project environment for bytePANEL:
+
+   ::
+
+      MACHINE=bytepanel DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+
+   The final command builds an installable toolchain:
+
+   ::
+
+      itbake devbase-image-bytesatwork -c populate_sdk
