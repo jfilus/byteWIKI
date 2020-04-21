@@ -69,7 +69,7 @@ byteDEVKIT
 ----------
 
 * Yocto 3.0 & Yocto 2.7
-kk
+
 
 Use repo to download all necessary repositories:
 
