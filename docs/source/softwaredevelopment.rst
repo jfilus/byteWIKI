@@ -214,3 +214,23 @@ byteDEVKIT
    ::
 
       itbake devbase-image-bytesatwork -c populate_sdk
+      
+============================================
+6. How do you install the toolchain?
+============================================
+
+byteENGINE AM335x
+----------
+
+-  *Download the Toolchain and install it*
+   ::
+
+      sudo ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
+
+byteENGINE STM32MP1x
+----------
+
+-  *Download the Toolchain and install it*
+   ::
+
+      sudo ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-2.7.2.sh
