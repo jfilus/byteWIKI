@@ -234,3 +234,45 @@ byteENGINE STM32MP1x
    ::
 
       sudo ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-2.7.2.sh
+      
+============================================
+7. How do you use the toolchain?
+============================================
+
+byteENGINE AM335x
+----------
+Source the Toolchain
+
+::
+
+   source /opt/poky-bytesatwork/3.0.1/environment-setup-armv7at2hf-neon-poky-linux-gnueabi
+
+Check if Cross-compiler is available in environment:
+
+::
+
+   echo $CC
+
+::
+
+   arm-poky-linux-gnueabi-gcc -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard
+
+::
+
+   --sysroot=/opt/poky-bytesatwork/3.0.1/sysroots/armv7at2hf-neon-poky-linux-gnueabi
+
+Crosscompile the source code, e.g. by:
+
+::
+
+   $CC helloworld.c -o helloworld
+
+Check generated binary:
+
+::
+
+   file helloworld
+
+::
+
+   helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
