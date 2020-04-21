@@ -70,8 +70,7 @@ byteDEVKIT
 
 * Yocto 3.0 & Yocto 2.7
    
-   ::
-   
+      
    Use repo to download all necessary repositories:
    
       repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior repo sync
