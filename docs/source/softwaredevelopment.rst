@@ -60,3 +60,38 @@ bytePANEL
 * Yocto 3.0 MISSING Data
 
 * Yocto 2.7 MISSING Data
+
+============================================
+4. How do you build an image?
+============================================
+
+byteDEVKIT
+----------
+
+* Yocto 3.0 MISSING Data & Yocto 2.7 MISSING Data
+Use repo to download all necessary repositories:
+	```
+	repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior repo sync
+	```
+
+	If those commands are completed successfully, the following command will setup a Yocto Project environment for byteDEVKIT:
+	```
+	MACHINE=bytedevkit DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+	```
+
+	The final command builds the development image:
+	```
+	bitbake devbase-image-bytesatwork
+	```
+
+	The output is found in:
+	```
+	tmp/deploy/images/bytedevkit
+	```
+
+bytePANEL
+---------
+
+* Yocto 3.0 MISSING Data
+
+* Yocto 2.7 MISSING Data
