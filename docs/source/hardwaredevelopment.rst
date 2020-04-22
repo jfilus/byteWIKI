@@ -26,7 +26,8 @@ Hardware Development
    EtherCAT, PROFINET, EtherNet/IP, PROFIBUS, Ethernet Powerlink and
    Sercos.
 
--  **Pinout AM335x**\ 
+-  **Pinout AM335x**\
+
    `https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf`_
 
 byteENGINE STM32MP1x
@@ -50,10 +51,12 @@ byteENGINE STM32MP1x
    with performances up to 26 Mtriangle/s, 133 Mpixel/s.
 
 -  **Fact Sheet
-   STM32MP1**\ \ `https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf`_
+   STM32MP1**\
+   `https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf`_
 
 -  **Pinout
-   STM32MP1x**\ \ `https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf`_
+   STM32MP1x**\
+   `https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf`_
 
 .. _`https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf`: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
 .. _`https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf`: https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
