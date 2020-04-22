@@ -1,6 +1,9 @@
 ********************
 Hardware Development
 ********************
+
+byteENGINE AM335x
+
 -  **General Information**: The byteENGINE AM335x is a high performance
    industrial oriented computing module. It allows a short
    time-to-market, while reducing development costs and substantial
@@ -30,7 +33,6 @@ Hardware Development
    
 
 byteENGINE STM32MP1x
-~~~~~~~~~~~~~~~~~~~~
 
 -  **General Information**: The byteENGINE STM32MP1x is a high
    performance industrial oriented computing module. It allows you a
