@@ -3,8 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the byteWIKI'!
-=========================
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.49.20-e1587405063724.jpg
+   :scale: 80%
+   :align: center
+
+
 
 .. toctree::
    :caption: About
