@@ -1,6 +1,7 @@
 ********************
 Software Development
 ********************
+The entire development lifecycle is done in-house with transparent project management and customer involvement. We have proven experience in a wide range of industries, including industrial automation and custom solutions for consumer electronics. This section helps you step by step initiating the software development process: 
 
 ===============================
 1. Where do you get the toolchain?
