@@ -5,7 +5,7 @@
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.49.20-e1587405063724.jpg
    :scale: 70%
-   :align: left
+   :align: center
 
 
 
