@@ -82,7 +82,7 @@ Technical overview byteDEVKIT STM32MP1
 
 ------------
 
--  The micro-SD card slot contains a preinstalled Linux OS:
+-  The micro-SD card slot contains a micro-SD card with preinstalled Linux OS:
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_11kl.jpg
    :scale: 20%
