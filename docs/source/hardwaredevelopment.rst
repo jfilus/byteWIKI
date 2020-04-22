@@ -28,7 +28,7 @@ Hardware Development
 
 -  **Pinout AM335x**:
 
-   `https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf`_
+   https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
 
 byteENGINE STM32MP1x
 ~~~~~~~~~~~~~~~~~~~~
@@ -52,8 +52,8 @@ byteENGINE STM32MP1x
 
 -  **Fact Sheet
    STM32MP1**:
-   `https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf`_
+   https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
 
 -  **Pinout
    STM32MP1x**:
-   `https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf`_
+   https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf
