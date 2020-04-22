@@ -2,7 +2,7 @@
 Unboxing byteDEVKIT STM32MP1
 ********************
 
-**This guide delivers new users a brief overview of the package content and the functions of our byteDEVKIT STM32MP1. When opening the package of the byteDEVKIT STM32MP1 you should find the following components inside:**
+**This guide delivers new users a brief overview of the package content and the functions of our byteDEVKIT STM32MP1. When unboxing you should find the following components:**
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_1kl.jpg
    :scale: 20%
