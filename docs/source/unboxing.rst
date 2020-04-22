@@ -26,8 +26,8 @@ Unboxing byteDEVKIT STM32MP1
    :align: center
    
 ------------
-   
--  ... the SOM STM32MP1x is already mounted to the DEVKIT
+
+.. Hint:: The SOM STM32MP1x is already connected with the DEVKIT.   
    
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_4kl.jpg
    :scale: 20%
@@ -51,7 +51,7 @@ Unboxing byteDEVKIT STM32MP1
    
 ------------
 
--  micro SD card with preinstalled Linux - the micro SD card is already slotted to the DEVKIT
+-  micro-SD card with preinstalled Linux
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_10kl.jpg
    :scale: 20%
@@ -86,10 +86,10 @@ Technical overview byteDEVKIT STM32MP1
 
 ------------
 
--  The micro SC card slot contains a preinstalled Linux OS:
+-  The micro-SD card slot contains a preinstalled Linux OS:
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_11kl.jpg
    :scale: 20%
    :align: center
 
-.. Hint:: This is a Hint for the hardware preparation.
+.. Hint:: The micro-SD card is already slotted to the DEVKIT.
