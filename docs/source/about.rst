@@ -9,7 +9,9 @@ About the company
 
 
 
-bytes at work is a modern Swiss Technology company specialized in industrial computing. Our focus lies on the development of hardware and embedded software, as well as customizing Linux systems.
+bytes at work is a modern Swiss Technology company specialized in industrial computing. Our focus lies on the development of hardware and embedded software, as well as customizing Linux systems. The entire development life cycle takes place in-house with transparent project management and customer involvement. This significantly reduces both development time and development costs.
+
+We have years of experience in developing coordinated hardware and software solutions – from the prototype to the final product. We make your system usable end-to-end for your needs.
 
  
 ==============
