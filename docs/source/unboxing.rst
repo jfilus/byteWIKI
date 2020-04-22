@@ -18,11 +18,13 @@ This guide delivers new users a brief overview of the package content and the fu
    :align: center
    
 
--  The SOM STM32MP1x, which is already mounted on the DEVKIT
+-  The SOM STM32MP1x... which is already mounted on the DEVKIT
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_3kl.jpg
    :scale: 20%
    :align: center
+   
+-  ... the SOM STM32MP1x is already mounted to the DEVKIT
    
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_4kl.jpg
    :scale: 20%
@@ -31,7 +33,7 @@ This guide delivers new users a brief overview of the package content and the fu
    
 -  The power supply for the byteDEVKIT STM32MP1
 
-   .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_8kl.jpg
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_8kl.jpg
    :scale: 20%
    :align: center
    
