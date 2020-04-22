@@ -29,8 +29,11 @@ byteENGINE AM335x
    the ARM processor. PRU-ICSS enables real-time protocols such as
    EtherCAT, PROFINET, EtherNet/IP, PROFIBUS, Ethernet Powerlink and
    Sercos.
+   
 
 -  **Pinout AM335x**: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
+   
+   
    
 
 byteENGINE STM32MP1x
@@ -52,6 +55,7 @@ byteENGINE STM32MP1x
    **Furthermore, the STM32MP15xxAC** devices embed a 3D graphic
    processing unit (Vivante® - OpenGL® ES 2.0) running at up to 533 MHz,
    with performances up to 26 Mtriangle/s, 133 Mpixel/s.
+   
 
 -  **Fact Sheet STM32MP1**: https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
 
