@@ -1,8 +1,32 @@
 ***********
-First start
+First start byteDEVKIT STM32MP1
 ***********
 
-This describes the initial startup of the SOM, dev-Kit.
+**This guide helps with the first start of the byteDEVKIT STM32MP1:**
+
+-  Prepare the USB serial cable for connection
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_1kl.jpg
+   :scale: 20%
+   :align: center
+
+------------
+
+-  Locate the black cable of the serial connector.
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_2kl.jpg
+   :scale: 20%
+   :align: center
+
+------------
+
+.. Caution:: Connect the serial cable to the byteDEVKIT STM32MP1 as shown. The black cable must point towards the USB OTG connector.
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_3kl.jpg
+   :scale: 20%
+   :align: center
+
+------------
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
    :scale: 100%
