@@ -58,5 +58,32 @@ Unboxing byteDEVKIT STM32MP1
    :align: center
 
 
+********************
+Technical overview byteDEVKIT STM32MP1
+********************
+
+-  The DEVKIT offers the following connectors on the front side:
+
+   + USB 2.0
+   + RJ45 Ethernet 1 Gbit
+   + USB OTG
+   + Power connector
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_7kl.jpg
+   :scale: 20%
+   :align: center
+
+------------
+
+-  you find the extension on the backside. The DEVKIT STM32MP1 offers:
+
+   + 40 pin header compatible for the rasperry pi 
+   + 60 pin header with all the needed signals: I2C, SPI, CAN, UART, I2S, LDC, GPIO and PWM
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_5kl.jpg
+   :scale: 20%
+   :align: center
+
+------------
 
 .. Hint:: This is a Hint for the hardware preparation.
