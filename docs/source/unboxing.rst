@@ -16,7 +16,7 @@ Unboxing byteDEVKIT STM32MP1
 
 ------------
 
--  The SOM STM32MP1x... which is already mounted on the byteDEVKIT STM32MP1
+-  The SOM STM32MP1x
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_3kl.jpg
    :scale: 20%
