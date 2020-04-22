@@ -1,5 +1,5 @@
 ********************
-Hardware Preparation
+Unboxing
 ********************
 
 Essential preparations for the first startup of the SOM, dev-kit.
