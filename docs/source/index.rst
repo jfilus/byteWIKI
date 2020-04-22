@@ -4,9 +4,11 @@
    contain the root `toctree` directive.
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.49.20-e1587405063724.jpg
-   :scale: 80%
+   :scale: 70%
+   :align: left
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
+   :scale: 100%
    :align: center
-
 
 
 .. toctree::
