@@ -84,7 +84,7 @@ First start byteDEVKIT STM32MP1
 
 .. Hint:: For further information refer to: "Software_Development_".
 
-.. _Software_Development: https://jf-bytewiki.readthedocs.io/en/latest/softwaredevelopment.html/
+.. _Software_Development: https://jf-bytewiki.readthedocs.io/en/latest/softwaredevelopment.html#software-development/
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_10kl.jpg
    :scale: 20%
