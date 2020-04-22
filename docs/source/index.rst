@@ -20,8 +20,8 @@
    :maxdepth: 5
 
 
+   unboxing
    firststart
-   hardwarepreparation
    softwaredevelopment
    hardwaredevelopment
 
