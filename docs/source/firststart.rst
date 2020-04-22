@@ -82,8 +82,8 @@ First start byteDEVKIT STM32MP1
 
 -  Now you can access the byteDEVKIT STM32MP1 with your laptop.
 
-.. Hint:: For further information refer to: `Software Development
-<https://jf-bytewiki.readthedocs.io/en/latest/softwaredevelopment.html/>`_.
+.. Hint:: For further information refer to: Software Development_.
+.. _Software Development https://jf-bytewiki.readthedocs.io/en/latest/softwaredevelopment.html/
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_10kl.jpg
    :scale: 20%
