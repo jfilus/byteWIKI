@@ -2,6 +2,8 @@
 Hardware Development
 ********************
 
+We provide the development for a wide range of embedded systems, from small-scale embedded components to sophisticated embedded systems with increased security requirements. Our engineers are certified hardware experts and provide long experience in business.
+
 byteENGINE AM335x
 ----------
 
