@@ -25,6 +25,22 @@ First start byteDEVKIT STM32MP1
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_3kl.jpg
    :scale: 20%
    :align: center
+   
+------------
+
+-  Connect the USB connector with USB port of your computer or laptop.
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_4kl.jpg
+   :scale: 20%
+   :align: center
+   
+------------
+
+-  Connect the ethernet RJ45 with the byteDEVKIT STM32MP1.
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_5kl.jpg
+   :scale: 20%
+   :align: center
 
 ------------
 
