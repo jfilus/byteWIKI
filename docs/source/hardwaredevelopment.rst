@@ -26,9 +26,9 @@ Hardware Development
    EtherCAT, PROFINET, EtherNet/IP, PROFIBUS, Ethernet Powerlink and
    Sercos.
 
--  **Pinout AM335x**:
-
-   https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
+-  **Pinout AM335x**_.: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
+   
+.. _Pinout AM335x: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
 
 byteENGINE STM32MP1x
 ~~~~~~~~~~~~~~~~~~~~
