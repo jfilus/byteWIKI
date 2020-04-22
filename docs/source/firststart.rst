@@ -62,7 +62,7 @@ First start byteDEVKIT STM32MP1
 
 -  A green LED on the backside of the byteDEVKIT STM32MP1 indicates the status of the power supply.
 
-.. Attention:: Your byteDEVKIT STM32MP1 is powered up, when the green LED lights up. If the LED doesn´t light up, check the connection the power socket.
+.. Attention:: Your byteDEVKIT STM32MP1 is powered up, when the green LED lights up. If the LED doesn´t light up, check the connection of the power socket.
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_8kl.jpg
    :scale: 20%
