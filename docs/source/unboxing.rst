@@ -19,7 +19,7 @@ Unboxing byteDEVKIT STM32MP1
 
 ------------
 
--  The SOM STM32MP1x... which is already mounted on the DEVKIT
+-  The SOM STM32MP1x... which is already mounted on the byteDEVKIT STM32MP1
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_3kl.jpg
    :scale: 20%
@@ -27,7 +27,7 @@ Unboxing byteDEVKIT STM32MP1
    
 ------------
 
-.. Hint:: The SOM STM32MP1x is already connected with the DEVKIT.   
+.. Hint:: The SOM STM32MP1x is already connected with the byteDEVKIT STM32MP1.   
    
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_4kl.jpg
    :scale: 20%
@@ -62,7 +62,7 @@ Unboxing byteDEVKIT STM32MP1
 Technical overview byteDEVKIT STM32MP1
 ********************
 
--  The DEVKIT offers the following connectors on the front side:
+-  The byteDEVKIT STM32MP1 offers the following connectors on the front side:
 
    + USB 2.0
    + RJ45 Ethernet 1 Gbit
@@ -75,7 +75,7 @@ Technical overview byteDEVKIT STM32MP1
 
 ------------
 
--  You find the extension on the backside. The DEVKIT STM32MP1 offers:
+-  You find the extension on the backside. The byteDEVKIT STM32MP1 offers:
 
    + 40 pin header compatible for the rasperry pi 
    + 60 pin header with all the needed signals: **I2C, SPI, CAN, UART, I2S, LDC, GPIO and PWM**
@@ -92,4 +92,4 @@ Technical overview byteDEVKIT STM32MP1
    :scale: 20%
    :align: center
 
-.. Hint:: The micro-SD card is already slotted to the DEVKIT.
+.. Hint:: The micro-SD card is already slotted to the byteDEVKIT STM32MP1.
