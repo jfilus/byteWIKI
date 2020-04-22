@@ -19,3 +19,9 @@ Our philosophy
 Hardware and software for industrial computers have to fulfill an immense range of demanding challenges. They are used in completely different areas of industries and they have to be able to adapt unique and specific tasks. Our employees pay particular attention to each and every customer. That is why our products and services meet and even exceed our customers expectations.
 
 We from bytes at work are aware that the current persistent industrial development also has its darker side. This is our motivation to be exemplary in terms of use of resources. No wonder that unconditional reliability, long service life and low power consumption are main features of all our products.
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.46.24.jpg
+   :scale: 100%
+   :align: center
+
+
