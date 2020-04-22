@@ -20,7 +20,7 @@ First start byteDEVKIT STM32MP1
 
 ------------
 
-.. Caution:: Connect the serial cable to the byteDEVKIT STM32MP1 as shown. The black cable must point towards the USB OTG connector.
+.. Caution:: Connect the serial cable to the byteDEVKIT STM32MP1 as shown. The **black cable** must point towards the USB OTG connector.
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_3kl.jpg
    :scale: 20%
