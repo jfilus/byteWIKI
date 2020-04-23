@@ -90,6 +90,13 @@ Technical overview byteDEVKIT STM32MP1
 
 .. Hint:: The micro-SD card is already slotted to the byteDEVKIT STM32MP1.
 
+------------
+
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
+   :scale: 100%
+   :align: center
+
+   
 Unboxing Video Tutorial
 ------------
 
