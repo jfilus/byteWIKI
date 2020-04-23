@@ -89,3 +89,10 @@ Technical overview byteDEVKIT STM32MP1
    :align: center
 
 .. Hint:: The micro-SD card is already slotted to the byteDEVKIT STM32MP1.
+
+Unboxing Video Tutorial
+------------
+
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://vimeo.com/403745998/999ca8b344" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
