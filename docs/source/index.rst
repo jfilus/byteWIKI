@@ -1,3 +1,5 @@
+byteWIKI
+========
 .. byteWIKI documentation master file, created by
    sphinx-quickstart on Tue Apr 21 09:22:40 2020.
    You can adapt this file completely to your liking, but it should at least
@@ -25,13 +27,6 @@
    softwaredevelopment
    hardwaredevelopment
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
    :scale: 100%
