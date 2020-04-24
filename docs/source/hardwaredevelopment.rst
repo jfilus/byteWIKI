@@ -36,7 +36,7 @@ byteENGINE AM335x
 -  **Data Sheet AM335x**: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
 -  **Prepared Pinmux file AM335x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteEngineM2-20160922.pinmux
 -  **Detailed pinout AM335x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/PinmuxConfigSummary_byteEngineM2-20160922.xlsx
--  **Datasheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
+-  **Data Sheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
 -  **Schematic of the connectors X1 and X2**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/m2-connector.pdf
 -  **Texas Instruments Sitara™ AM335x Processors**: http://www.ti.com/processors/sitara-arm/am335x-cortex-a8/overview.html
 -  **AM335x Technical Reference Manual**: https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf
@@ -65,10 +65,10 @@ byteENGINE STM32MP1x
    with performances up to 26 Mtriangle/s, 133 Mpixel/s.
    
 
--  **Fact Sheet STM32MP1**: https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
+-  **Fact Sheet STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
 -  **Data Sheet STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf
 -  **Detailed pinout STM32MP1x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteENGINE-M5-pinout.xlsx
--  **Datasheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
+-  **Data Sheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
 -  **Schematic of the connectors X1 and X2**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/m5-connector-pinout.pdf
 -  **STMicroelectronics STM32MP1**: https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html
 -  **STPMIC1 power management IC**: https://www.st.com/en/power-management/stpmic1.html
