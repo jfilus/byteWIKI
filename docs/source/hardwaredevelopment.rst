@@ -33,8 +33,14 @@ byteENGINE AM335x
    Sercos.
    
 
--  **Pinout AM335x**: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
-   
+-  **Data Sheet AM335x**: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
+-  **Prepared Pinmux file AM335x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteEngineM2-20160922.pinmux
+-  **Detailed pinout AM335x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/PinmuxConfigSummary_byteEngineM2-20160922.xlsx
+-  **Datasheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
+-  **Schematic of the connectors X1 and X2**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/m2-connector.pdf
+-  **Texas Instruments Sitara™ AM335x Processors**: http://www.ti.com/processors/sitara-arm/am335x-cortex-a8/overview.html
+-  **AM335x Technical Reference Manual**: https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf
+-  **TPS65910x Integrated Power-Management Unit**: http://www.ti.com/lit/ds/symlink/tps65910.pdf
    
    
 
