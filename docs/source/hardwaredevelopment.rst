@@ -42,7 +42,7 @@ byteENGINE AM335x
 -  **AM335x Technical Reference Manual**: https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf
 -  **TPS65910x Integrated Power-Management Unit**: http://www.ti.com/lit/ds/symlink/tps65910.pdf
    
-   
+----------  
 
 byteENGINE STM32MP1x
 ----------
@@ -66,5 +66,15 @@ byteENGINE STM32MP1x
    
 
 -  **Fact Sheet STM32MP1**: https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
-
--  **Pinout STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf
+-  **Data Sheet STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf
+-  **Detailed pinout STM32MP1x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteENGINE-M5-pinout.xlsx
+-  **Datasheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
+-  **Schematic of the connectors X1 and X2**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/m5-connector-pinout.pdf
+-  **STMicroelectronics STM32MP1**: https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html
+-  **STPMIC1 power management IC**: https://www.st.com/en/power-management/stpmic1.html
+-  **Data Sheet STM32MP157C**: https://www.st.com/resource/en/datasheet/stm32mp157c.pdf
+-  **STM32CubeMX Software Download**: https://www.st.com/en/development-tools/stm32cubemx.html
+-  **STM32MP1x prepared CubeMX Project**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteENGINE_STM32MP1.ioc
+-  **Prepared project: step model STM32MP1x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteengine-m5.step
+-  **Altium Library Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/2001s-100G-270-020.zip
+-  **Altium Library byteENGINE STM32MP1x (X1/X2 position mask on layer 21)**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Footprint-byteENGINE-M5.zip
