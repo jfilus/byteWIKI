@@ -33,13 +33,13 @@ byteENGINE AM335x
    Sercos.
    
 
--  **Data Sheet AM335x**: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
+-  **Datasheet AM335x**: https://www.bytesatwork.io/wp-content/uploads/2019/03/Datasheet_byteENGINE_AM335x-12.pdf
 -  **Prepared Pinmux file AM335x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteEngineM2-20160922.pinmux
 -  **Detailed pinout AM335x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/PinmuxConfigSummary_byteEngineM2-20160922.xlsx
--  **Data Sheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
+-  **Datasheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
 -  **Schematic of the connectors X1 and X2**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/m2-connector.pdf
 -  **Texas Instruments Sitara™ AM335x Processors**: http://www.ti.com/processors/sitara-arm/am335x-cortex-a8/overview.html
--  **AM335x Technical Reference Manual**: https://www.ti.com/lit/ug/spruh73p/spruh73p.pdf
+-  **AM335x Technical Reference Manual**: https://www.ti.com/lit/ug/spruh73q/spruh73q.pdf
 -  **TPS65910x Integrated Power-Management Unit**: http://www.ti.com/lit/ds/symlink/tps65910.pdf
    
 ----------  
@@ -65,14 +65,14 @@ byteENGINE STM32MP1x
    with performances up to 26 Mtriangle/s, 133 Mpixel/s.
    
 
--  **Fact Sheet STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
--  **Data Sheet STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf
+-  **Factsheet STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/04/Fact-Sheet-byteENGINE_STM32MP1x.pdf
+-  **Datasheet STM32MP1x**: https://www.bytesatwork.io/wp-content/uploads/2019/12/Datasheet_byteENGINE_STM32MP1x-6.pdf
 -  **Detailed pinout STM32MP1x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteENGINE-M5-pinout.xlsx
--  **Data Sheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
+-  **Datasheet Connectors Neltron 2001S-100G-270-020**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/Neltron_2000P.pdf
 -  **Schematic of the connectors X1 and X2**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/m5-connector-pinout.pdf
 -  **STMicroelectronics STM32MP1**: https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html
 -  **STPMIC1 power management IC**: https://www.st.com/en/power-management/stpmic1.html
--  **Data Sheet STM32MP157C**: https://www.st.com/resource/en/datasheet/stm32mp157c.pdf
+-  **Datasheet STM32MP157C**: https://www.st.com/resource/en/datasheet/stm32mp157c.pdf
 -  **STM32CubeMX Software Download**: https://www.st.com/en/development-tools/stm32cubemx.html
 -  **STM32MP1x prepared CubeMX Project**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteENGINE_STM32MP1.ioc
 -  **Prepared project: step model STM32MP1x**: https://download.bytesatwork.io/documentation/byteENGINE/ressources/byteengine-m5.step
