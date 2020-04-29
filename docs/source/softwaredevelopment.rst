@@ -232,10 +232,7 @@ Rebuild the image.
 ---------
 
 -  **If you want to rename or copy an image, simple rename or copy the image recipe, e.g. by:**
-
-  ::
-  
-     cp bytesatwork-minimal-image.bb customer-example-image.bb
+   :guilabel:`cp bytesatwork-minimal-image.bb customer-example-image.bb`
 
 
 4.5 Troubleshooting
