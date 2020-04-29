@@ -224,7 +224,7 @@ Add the desired software-package to IMAGE_INSTALL variable, for example:
 
    ::
 
-     add 'net-tools to bytesatwork-minimal-image.bb
+     add net-tools to bytesatwork-minimal-image.bb
 
 Rebuild the image.
 
