@@ -212,8 +212,8 @@ The entire development lifecycle is done in-house with transparent project manag
 
   Edit the minimal-image recipe :guilabel:`bytesatwork-minimal-image.bb` 
 
-  Add the desired software-package to IMAGE_INSTALL variable, for example :guilabel:`add net-tools to bytesatwork-minimal-image.bb`
-     add net-tools to bytesatwork-minimal-image.bb
+  Add the desired software-package to :guilabel:`IMAGE_INSTALL` variable, for example :guilabel:`add net-tools to bytesatwork-minimal-image.bb`
+  Add :guilabel:`net-tools` to :guilabel:`bytesatwork-minimal-image.bb`
 
   Rebuild the image.
 
