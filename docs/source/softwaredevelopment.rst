@@ -10,11 +10,12 @@ The entire development lifecycle is done in-house with transparent project manag
 1.1 byteDEVKIT
 ----------
 
--  **Yocto 3.0 MISSING Data**
+-  **Yocto 3.0**
+  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/3.0/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-3.0.2.sh
 
 
--  **Yocto 2.7 MISSING Data**
-
+-  **Yocto 2.7**
+  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-2.7.1.sh
 
 1.2 bytePANEL
 ---------
@@ -33,16 +34,18 @@ The entire development lifecycle is done in-house with transparent project manag
 2.1 byteDEVKIT
 ----------
 
--  **Yocto 3.0 MISSING Data**
+-  **Yocto 3.0**
+  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/3.0/bytesatwork-minimal-image-bytedevkit.wic.gz 
 
+-  **Yocto 2.7**
+  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/2.7/flashlayout_bytesatwork-minimal-image_FlashLayout_sdcard_stm32mp157c-bytedevkit.raw.gz
 
--  **Yocto 2.7 MISSING Data**
 
 2.2 bytePANEL
 ---------
 
 -  **Yocto 3.0**
-  Download LINK: https://bytesatwork.ch/downloads/transfer/bytesatwork/devbase-image-bytesatwork-bytepanel.wic.gz
+  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/3.0/bytesatwork-minimal-image-bytepanel-emmc-20200324165059.rootfs.wic.gz
   
 
 -  **Yocto 2.7**
@@ -55,18 +58,44 @@ The entire development lifecycle is done in-house with transparent project manag
 3.1 byteDEVKIT
 ----------
 
--  **Yocto 3.0 MISSING Data**
+-  **Yocto 3.0**
+* Windows *
+- Unzip the <file.wic.gz> (e.g. with 7-zip)
+- Write the resulting <file.wic> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
 
+* Linux *
+- gunzip -c <file.wic.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+- To improve write performance, you could use bmap-tools: bmaptool copy <file.wic.gz> /dev/mmcblk0
 
--  **Yocto 2.7 MISSING Data**
+-  **Yocto 2.7**
+* Windows *
+- Unzip the <file.raw.gz> (e.g. with 7-zip)
+- Write the resulting <file.raw> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
+
+* Linux *
+- gunzip -c <file.raw.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+- To improve write performance, you could use bmap-tools: bmaptool copy <file.raw.gz> /dev/mmcblk0
 
 3.2 bytePANEL
 ---------
 
--  **Yocto 3.0 MISSING Data**
+-  **Yocto 3.0**
+* Windows *
+- Unzip the <file.wic.gz> (e.g. with 7-zip)
+- Write the resulting <file.wic> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
 
+* Linux *
+- gunzip -c <file.wic.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+- To improve write performance, you could use bmap-tools: z.B. als HINT markieren: bmaptool copy <file.wic.gz> /dev/mmcblk0
 
--  **Yocto 2.7 MISSING Data**
+-  **Yocto 2.7**
+* Windows *
+- Unzip the <file.sdimg.gz> (e.g. with 7-zip)
+- Write the resulting <file.sdimg> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
+
+* Linux *
+- gunzip -c <file.sdimg.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+- To improve write performance, you could use bmap-tools: bmaptool copy <file.sdimg.gz> /dev/mmcblk0
 
 ============================================
 4. How do you build an image?
