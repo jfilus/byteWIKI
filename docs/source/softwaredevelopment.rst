@@ -200,6 +200,45 @@ The entire development lifecycle is done in-house with transparent project manag
       tmp/deploy/images/bytepanel
       
       
+4.3 How to modify the image
+---------
+
+-  **bytesatwork delivers tips for customizing an image**
+
+The image recipes can be found in:
+
+  ::
+
+     sources/meta-bytesatwork/recipes-core/images.
+     
+This is relative to where you started you repo command to check out all the sources.
+
+
+Edit the minimal-image recipe: bytesatwork-minimal-image.bb 
+Add the desired software-package to IMAGE_INSTALL variable, for example:
+add 'net-tools to bytesatwork-minimal-image.bb
+Rebuild the image.
+
+4.4 How to rename the image
+---------
+
+If you want to rename or copy an image, simple rename or copy the image recipe, e.g. by:
+
+  ::
+  
+     cp bytesatwork-minimal-image.bb customer-example-image.bb
+
+
+4.5 Troubleshooting
+---------
+
+**Image size is to small:**
+If you encounter that your image size is to small to install additional software, 
+please have a look at the IMAGE_ROOTFS_SIZE variable under 
+meta-bytesatwork/recipes-core/images/bytesatwork-minimal-image.bb
+
+-  Increase the size if necessary.
+
 ============================================
 5. How do you build a toolchain?
 ============================================
