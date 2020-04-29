@@ -399,3 +399,27 @@ Check generated binary:
    helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
 
 ::
+
+============================================
+8. How to bring your binary to the target?
+============================================
+
+1. Connect the embedded device's ethernet to your LAN
+2. Run 'dhclient' on the embedded target
+  determine the embedded target ip address by
+ ' ip addr show'
+3: scp your binary, e.g. hello world to the target by:
+
+  ::
+  
+    scp helloworld root@<ip address of target>:/tmp
+    
+============================================
+9. How to install additional software using apt
+============================================
+
+1. Connect the embedded device's ethernet to your LAN
+2. Run dhclient on the embedded target
+3. Run 'apt-get update'
+4. Run 'apt-get install <software component>' to install additional software, e.g.:
+apt-get install openssh-sshd openssh-scp
