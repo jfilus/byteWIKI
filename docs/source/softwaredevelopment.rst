@@ -438,10 +438,10 @@ Check generated binary:
 
   ::
 
-     'apt-get update'
+     apt-get update
      
 4. Run:
 
   ::
 
-     'apt-get install <software component>' to install additional software, e.g.: apt-get install openssh-sshd openssh-scp
+     apt-get install <software component> to install additional software, e.g.: apt-get install openssh-sshd openssh-scp
