@@ -406,8 +406,8 @@ Check generated binary:
 
 1. Connect the embedded device's ethernet to your LAN
 2. Run: :guilabel:`dhclient` on the embedded target
-   determine the embedded target ip address by :guilabel:`ip addr show`
-3. scp your binary, e.g. hello world to the target by :guilabel:`scp helloworld root@<ip address of target>:/tmp`
+3. determine the embedded target ip address by :guilabel:`ip addr show`
+4. scp your binary, e.g. hello world to the target by :guilabel:`scp helloworld root@<ip address of target>:/tmp`
     
 ============================================
 9. How to install additional software using apt
