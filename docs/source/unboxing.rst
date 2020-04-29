@@ -4,10 +4,6 @@ Unboxing byteDEVKIT STM32MP1
 
 **This guide delivers new users a brief overview of the package content and the functions of our byteDEVKIT STM32MP1. When unboxing you should find the following components:**
 
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_1kl.jpg
-   :scale: 50%
-   :align: center
-
 -  The DEVKIT with a 5-inch touchscreen display
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_2kl.jpg
