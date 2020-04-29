@@ -5,13 +5,6 @@ First start byteDEVKIT STM32MP1
 **This guide helps with the first start of the byteDEVKIT STM32MP1:**
 
 -  Prepare the USB serial cable for connection
-
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_1kl.jpg
-   :scale: 20%
-   :align: center
-
-------------
-
 -  Locate the black cable of the serial connector.
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_2kl.jpg
@@ -29,13 +22,6 @@ First start byteDEVKIT STM32MP1
 ------------
 
 -  Connect the USB connector with USB port of your computer or laptop.
-
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_4kl.jpg
-   :scale: 20%
-   :align: center
-   
-------------
-
 -  Connect the ethernet RJ45 with the byteDEVKIT STM32MP1.
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_5kl.jpg
@@ -45,13 +31,6 @@ First start byteDEVKIT STM32MP1
 ------------
 
 -  Plug in the power socket.
-
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_6kl.jpg
-   :scale: 20%
-   :align: center
-   
-------------
-
 -  Connect the power supply cable to the power slot of the byteDEVKIT STM32MP1.
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_7kl.jpg
