@@ -213,10 +213,18 @@ The image recipes can be found in:
      
 This is relative to where you started you repo command to check out all the sources.
 
+Edit the minimal-image recipe:
 
-Edit the minimal-image recipe: bytesatwork-minimal-image.bb 
+  ::
+
+     bytesatwork-minimal-image.bb 
+
 Add the desired software-package to IMAGE_INSTALL variable, for example:
-add 'net-tools to bytesatwork-minimal-image.bb
+
+   ::
+
+     add 'net-tools to bytesatwork-minimal-image.bb
+
 Rebuild the image.
 
 4.4 How to rename the image
