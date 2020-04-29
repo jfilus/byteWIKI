@@ -83,7 +83,7 @@ The entire development lifecycle is done in-house with transparent project manag
    ::
    
      Unzip the <file.raw.gz> (e.g. with 7-zip)
-     Write the resulting <file.raw> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
+     Write the resulting <file.raw> to the uSD-card with a tool like Roadkils Disk Image: https://www.roadkil.net/program.php?ProgramID=12
 
    LINUX:
    
@@ -102,7 +102,7 @@ The entire development lifecycle is done in-house with transparent project manag
    ::
      
      Unzip the <file.wic.gz> (e.g. with 7-zip)
-     Write the resulting <file.wic> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
+     Write the resulting <file.wic> to the uSD-card with a tool like Roadkils Disk Image: https://www.roadkil.net/program.php?ProgramID=12
 
 
   LINUX:
