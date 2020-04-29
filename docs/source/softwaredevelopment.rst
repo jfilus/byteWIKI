@@ -108,6 +108,7 @@ The entire development lifecycle is done in-house with transparent project manag
   LINUX:
   
   ::
+  
      gunzip -c <file.wic.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
   
   
