@@ -97,21 +97,35 @@ The entire development lifecycle is done in-house with transparent project manag
 ---------
 
 -  **Yocto 3.0**
-* Windows *
-- Unzip the <file.wic.gz> (e.g. with 7-zip)
-- Write the resulting <file.wic> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
 
-* Linux *
-- gunzip -c <file.wic.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+   WINDOWS:
+     
+   ::
+     
+     Unzip the <file.wic.gz> (e.g. with 7-zip)
+     Write the resulting <file.wic> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
+
+  LINUX:
+  
+  ::
+  
+     gunzip -c <file.wic.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
 .. Hint:: To improve write performance, you could use bmap-tools: bmaptool copy <file.wic.gz> /dev/mmcblk0
 
 -  **Yocto 2.7**
-* Windows *
-- Unzip the <file.sdimg.gz> (e.g. with 7-zip)
-- Write the resulting <file.sdimg> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
 
-* Linux *
-- gunzip -c <file.sdimg.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+  WINDOWS:
+  
+  ::
+  
+     Unzip the <file.sdimg.gz> (e.g. with 7-zip)
+     Write the resulting <file.sdimg> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
+
+  LINUX:
+  
+  ::
+  
+     gunzip -c <file.sdimg.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
 .. Hint:: To improve write performance, you could use bmap-tools: bmaptool copy <file.sdimg.gz> /dev/mmcblk0
 
 ============================================
