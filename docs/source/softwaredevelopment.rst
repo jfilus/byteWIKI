@@ -404,9 +404,18 @@ Check generated binary:
 ============================================
 
 1. Connect the embedded device's ethernet to your LAN
-2. Run 'dhclient' on the embedded target
+2. Run:
+
+  ::
+  
+     dhclient on the embedded target
+  
   determine the embedded target ip address by
- ' ip addr show'
+ 
+  ::
+ 
+    ip addr show
+    
 3: scp your binary, e.g. hello world to the target by:
 
   ::
@@ -418,7 +427,20 @@ Check generated binary:
 ============================================
 
 1. Connect the embedded device's ethernet to your LAN
-2. Run dhclient on the embedded target
-3. Run 'apt-get update'
-4. Run 'apt-get install <software component>' to install additional software, e.g.:
-apt-get install openssh-sshd openssh-scp
+2. Run:
+
+  ::
+  
+     dhclient on the embedded target
+     
+3. Run:
+
+  ::
+
+     'apt-get update'
+     
+4. Run:
+
+  ::
+
+     'apt-get install <software component>' to install additional software, e.g.: apt-get install openssh-sshd openssh-scp
