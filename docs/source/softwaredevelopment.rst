@@ -206,7 +206,7 @@ The entire development lifecycle is done in-house with transparent project manag
 
 -  **bytesatwork delivers tips for customizing an image**
 
-The image recipes can be found in:
+The image recipes can be found in
 
   ::
 
@@ -243,8 +243,8 @@ If you want to rename or copy an image, simple rename or copy the image recipe, 
 
 **Image size is to small:**
 If you encounter that your image size is to small to install additional software, 
-please have a look at the IMAGE_ROOTFS_SIZE variable under 
-meta-bytesatwork/recipes-core/images/bytesatwork-minimal-image.bb
+please have a look at the :guilabel:`IMAGE_ROOTFS_SIZE` variable under 
+:guilabel:`meta-bytesatwork/recipes-core/images/bytesatwork-minimal-image.bb`
 
 -  Increase the size if necessary.
 
