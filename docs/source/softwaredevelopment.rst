@@ -243,9 +243,9 @@ If you want to rename or copy an image, simple rename or copy the image recipe, 
 
 -  **Image size is to small:**
 
-     If you encounter that your image size is to small to install additional software, 
-     please have a look at the :guilabel:`IMAGE_ROOTFS_SIZE` variable under 
-     :guilabel:`meta-bytesatwork/recipes-core/images/bytesatwork-minimal-image.bb`
+   If you encounter that your image size is to small to install additional software, 
+   please have a look at the :guilabel:`IMAGE_ROOTFS_SIZE` variable under 
+   :guilabel:`meta-bytesatwork/recipes-core/images/bytesatwork-minimal-image.bb`
 
 -  Increase the size if necessary.
 
