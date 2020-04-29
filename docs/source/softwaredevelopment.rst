@@ -231,7 +231,7 @@ Rebuild the image.
 4.4 How to rename the image
 ---------
 
-If you want to rename or copy an image, simple rename or copy the image recipe, e.g. by:
+-  **If you want to rename or copy an image, simple rename or copy the image recipe, e.g. by:**
 
   ::
   
