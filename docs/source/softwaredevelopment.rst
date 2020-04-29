@@ -89,7 +89,6 @@ The entire development lifecycle is done in-house with transparent project manag
    
    ::
    
-   
      gunzip -c <file.raw.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
      To improve write performance, you could use bmap-tools: bmaptool copy <file.raw.gz> /dev/mmcblk0
 
@@ -105,11 +104,13 @@ The entire development lifecycle is done in-house with transparent project manag
      Unzip the <file.wic.gz> (e.g. with 7-zip)
      Write the resulting <file.wic> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
 
+
   LINUX:
   
   ::
-  
      gunzip -c <file.wic.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+  
+  
 .. Hint:: To improve write performance, you could use bmap-tools: bmaptool copy <file.wic.gz> /dev/mmcblk0
 
 -  **Yocto 2.7**
@@ -126,6 +127,9 @@ The entire development lifecycle is done in-house with transparent project manag
   ::
   
      gunzip -c <file.sdimg.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
+
+  
+  
 .. Hint:: To improve write performance, you could use bmap-tools: bmaptool copy <file.sdimg.gz> /dev/mmcblk0
 
 ============================================
@@ -141,7 +145,8 @@ The entire development lifecycle is done in-house with transparent project manag
 
    ::
 
-      repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior repo sync
+      repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior
+      repo sync
 
    If those commands are completed successfully, the following command
    will setup a Yocto Project environment for byteDEVKIT:
@@ -172,7 +177,8 @@ The entire development lifecycle is done in-house with transparent project manag
 
    ::
 
-      repo init -u https://github.com/bytesatwork/bsp-platform.git -b zeus repo sync
+      repo init -u https://github.com/bytesatwork/bsp-platform.git -b zeus
+      repo sync
 
    If those commands are completed successfully, the following command
    will setup a Yocto Project environment for bytePANEL:
