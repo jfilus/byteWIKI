@@ -121,7 +121,7 @@ The entire development lifecycle is done in-house with transparent project manag
   ::
   
      Unzip the <file.sdimg.gz> (e.g. with 7-zip)
-     Write the resulting <file.sdimg> to the uSD-card with a tool like Roadkil's Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
+     Write the resulting <file.sdimg> to the uSD-card with a tool like Roadkils Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
 
   LINUX:
   
