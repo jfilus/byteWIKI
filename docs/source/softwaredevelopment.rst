@@ -86,7 +86,7 @@ The entire development lifecycle is done in-house with transparent project manag
 
 * Linux *
 - gunzip -c <file.wic.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
-- To improve write performance, you could use bmap-tools: z.B. als HINT markieren: bmaptool copy <file.wic.gz> /dev/mmcblk0
+.. Hint:: To improve write performance, you could use bmap-tools: bmaptool copy <file.wic.gz> /dev/mmcblk0
 
 -  **Yocto 2.7**
 * Windows *
@@ -95,7 +95,7 @@ The entire development lifecycle is done in-house with transparent project manag
 
 * Linux *
 - gunzip -c <file.sdimg.gz> | dd of=/dev/mmcblk0 bs=8M conv=fdatasync status=progress
-- To improve write performance, you could use bmap-tools: bmaptool copy <file.sdimg.gz> /dev/mmcblk0
+.. Hint:: To improve write performance, you could use bmap-tools: bmaptool copy <file.sdimg.gz> /dev/mmcblk0
 
 ============================================
 4. How do you build an image?
