@@ -340,7 +340,7 @@ Check if Cross-compiler is available in environment:
 
    --sysroot=/opt/poky-bytesatwork/3.0.1/sysroots/armv7at2hf-neon-poky-linux-gnueabi
 
-Crosscompile the source code, e.g. by:
+Cross-compile the source code, e.g. by:
 
 ::
 
