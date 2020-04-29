@@ -398,7 +398,6 @@ Check generated binary:
 
    helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
 
-::
 
 ============================================
 8. How to bring your binary to the target?
