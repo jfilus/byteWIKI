@@ -206,27 +206,16 @@ The entire development lifecycle is done in-house with transparent project manag
 
 -  **bytesatwork delivers tips for customizing an image**
 
-The image recipes can be found in
-
-  ::
-
-     sources/meta-bytesatwork/recipes-core/images.
+  The image recipes can be found in :guilabel:`sources/meta-bytesatwork/recipes-core/images`
      
-This is relative to where you started you repo command to check out all the sources.
+  This is relative to where you started you repo command to check out all the sources.
 
-Edit the minimal-image recipe:
+  Edit the minimal-image recipe :guilabel:`bytesatwork-minimal-image.bb` 
 
-  ::
-
-     bytesatwork-minimal-image.bb 
-
-Add the desired software-package to IMAGE_INSTALL variable, for example:
-
-   ::
-
+  Add the desired software-package to IMAGE_INSTALL variable, for example :guilabel:`add net-tools to bytesatwork-minimal-image.bb`
      add net-tools to bytesatwork-minimal-image.bb
 
-Rebuild the image.
+  Rebuild the image.
 
 4.4 How to rename the image
 ---------
