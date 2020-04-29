@@ -4,6 +4,8 @@ First start byteDEVKIT STM32MP1
 
 **This guide helps with the first start of the byteDEVKIT STM32MP1:**
 
+Connecting the Hardware
+------------
 -  Prepare the USB serial cable for connection
 -  Locate the black cable of the serial connector.
 
@@ -74,6 +76,15 @@ First start byteDEVKIT STM32MP1
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
    :scale: 100%
    :align: center
+
+------------
+
+Bring-up the system
+------------
+
+
+How to install additional software
+------------
 
    
 First start Video Tutorial
