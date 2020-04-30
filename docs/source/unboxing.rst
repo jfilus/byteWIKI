@@ -14,12 +14,6 @@ Unboxing byteDEVKIT STM32MP1
 
 -  The SOM STM32MP1x
 
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_3kl.jpg
-   :scale: 50%
-   :align: center
-   
-------------
-
 .. Note:: The SOM STM32MP1x is already connected with the byteDEVKIT STM32MP1.   
    
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_4kl.jpg
