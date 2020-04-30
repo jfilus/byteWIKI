@@ -170,9 +170,7 @@ Check generated binary:
 6. How do you flash the Image?
 ==============================
 
-.. Attention:: - You need a micro-SD card with **minimal 8GB** capacity.
-- **all existing data** on the micro-SD card will be lost.
-- **do not format** the micro-SD card before flashing.
+.. Attention:: - You need a micro-SD card with **minimal 8GB** capacity. - **all existing data** on the micro-SD card will be lost. - **do not format** the micro-SD card before flashing.
 
 6.1 byteDEVKIT
 --------------
