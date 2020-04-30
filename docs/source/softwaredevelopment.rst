@@ -172,8 +172,8 @@ Check generated binary:
 
 .. Attention::
   - You need a micro-SD card with **minimal 8GB** capacity.
-  - **all existing data** on the micro-SD card will be lost.
-  - **do not format** the micro-SD card before flashing.
+  - **All existing data** on the micro-SD card will be lost.
+  - **Do not format** the micro-SD card before flashing.
 
 6.1 byteDEVKIT
 --------------
