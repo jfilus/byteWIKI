@@ -65,7 +65,7 @@ Connecting the Hardware and first Booting
 
 .. Hint:: For further information refer to: "Bring-up_byteDEVKIT_STM32MP1_".
 
-.. _Bring-up_byteDEVKIT_STM32MP1: https://jf-bytewiki.readthedocs.io/en/latest/firststart.html#bring-up-bytedevkit-stm32mp1
+.. _Bring-up_byteDEVKIT_STM32MP1: http://jf-bytewiki.readthedocs.io/en/latest/firststart.html#bring-up-bytedevkit-stm32mp1
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_10kl.jpg
    :scale: 20%
