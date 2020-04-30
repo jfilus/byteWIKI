@@ -63,7 +63,7 @@ Technical overview byteDEVKIT STM32MP1
 
 -  You find the extension on the backside. The byteDEVKIT STM32MP1 offers:
 
-   + 40 pin header compatible for the rasperry pi 
+   + 40 pin header compatible for the **rasperry pi** 
    + 60 pin header with all the needed signals: **I2C, SPI, CAN, UART, I2S, LDC, GPIO and PWM**
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/unboxing_5kl.jpg
