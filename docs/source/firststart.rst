@@ -85,11 +85,13 @@ How do I connect to byteDEVKIT using the serial console?
 in short:
 ==================================
 
--  **Use the serial port to connect our embedded devices:**
-    • Connect the debug cable to your embedded device and your computer
-    • Start your serial communication program (‹putty›, ‹minicom› or something else)
+-  **Use the serial port to connect the byteDEVKIT STM32MP1:**
+    • Connect the debug cable with the byteDEVKIT STM32MP1 and your computer/laptop
+    • Start a serial communication program on your computer/laptop (‹putty›, ‹minicom› or something else)
     • Set to 115200, 8N1, no flow control
-    • login by user root password rootme
+    • login by:
+      user: "root"
+      password: "rootme"
 
 ==================================
 in detail:
