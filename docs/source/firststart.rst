@@ -105,11 +105,10 @@ in detail:
 
 ------------  
 
-  Click "Serial".
-  Change "Serial line" to "/dev/ttyUSB0".
-  Change "Speed" to 115200
-  
-  Navigate to "Serial" in the menu "Connection".
+  • Click "Serial".
+  • Change "Serial line" to "/dev/ttyUSB0".
+  • Change "Speed" to 115200
+  • Navigate to "Serial" in the menu "Connection".
   
   .. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
   
