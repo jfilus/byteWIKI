@@ -372,7 +372,7 @@ Check generated binary:
    :guilabel:`cp bytesatwork-minimal-image.bb customer-example-image.bb`
 
 
-4.5 Troubleshooting
+7.5 Troubleshooting
 -------------------
 
 -  **Image size is to small**
