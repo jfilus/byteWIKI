@@ -73,6 +73,9 @@ Connecting the Hardware
    
 ------------
 
+==================================
+Bring-up byteDEVKIT STM32MP1
+==================================
 
 ***********
 Bring-up byteDEVKIT STM32MP1
