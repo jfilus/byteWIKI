@@ -367,7 +367,9 @@ Check generated binary:
 
 -  **If you want to rename or copy an image, simple rename or copy the image recipe by:**
    
-   :guilabel:`cp bytesatwork-minimal-image.bb customer-example-image.bb`
+   ::
+   
+      cp bytesatwork-minimal-image.bb customer-example-image.bb
 
 
 7.5 Troubleshooting
