@@ -31,7 +31,17 @@ The entire development lifecycle is done in-house with transparent project manag
 2. How do you install the toolchain?
 ====================================
 
-2.1 byteENGINE AM335x
+2.1 byteENGINE STM32MP1x
+------------------------
+
+Download the Toolchain and install it
+
+   ::
+
+      ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-2.7.2.sh
+      
+
+2.2 byteENGINE AM335x
 ---------------------
 
 Download the Toolchain and install it
@@ -40,58 +50,12 @@ Download the Toolchain and install it
 
       ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
 
-2.2 byteENGINE STM32MP1x
-------------------------
-
-Download the Toolchain and install it
-
-   ::
-
-      ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-2.7.2.sh
-
-
 ================================
 3. How do you use the toolchain?
 ================================
 
-3.1 byteENGINE AM335x
----------------------
-Source the Toolchain
-
-::
-
-   source /opt/poky-bytesatwork/3.0.1/environment-setup-armv7at2hf-neon-poky-linux-gnueabi
-
-Check if Cross-compiler is available in environment:
-
-::
-
-   echo $CC
-
-You should see the following output:
-
-::
-
-   arm-poky-linux-gnueabi-gcc -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard
-   --sysroot=/opt/poky-bytesatwork/3.0.1/sysroots/armv7at2hf-neon-poky-linux-gnueabi
-
-Cross-compile the source code, e.g. by:
-
-::
-
-   $CC helloworld.c -o helloworld
-
-Check generated binary:
-
-::
-
-   file helloworld
-
-::
-
-   helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
    
-3.2 byteENGINE STM32MP1x
+3.1 byteENGINE STM32MP1x
 ------------------------
 
 Source the installed Toolchain:
@@ -134,6 +98,42 @@ Check generated binary:
 
    helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
 
+3.2 byteENGINE AM335x
+---------------------
+Source the Toolchain
+
+::
+
+   source /opt/poky-bytesatwork/3.0.1/environment-setup-armv7at2hf-neon-poky-linux-gnueabi
+
+Check if Cross-compiler is available in environment:
+
+::
+
+   echo $CC
+
+You should see the following output:
+
+::
+
+   arm-poky-linux-gnueabi-gcc -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard
+   --sysroot=/opt/poky-bytesatwork/3.0.1/sysroots/armv7at2hf-neon-poky-linux-gnueabi
+
+Cross-compile the source code, e.g. by:
+
+::
+
+   $CC helloworld.c -o helloworld
+
+Check generated binary:
+
+::
+
+   file helloworld
+
+::
+
+   helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
 
 ==========================================
 4. How to bring your binary to the target?
