@@ -181,12 +181,15 @@ in detail:
 ------------  
 
   
-How to install additional software
+
+How to install additional software using apt
 ------------
 
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
-   :scale: 100%
-   :align: center
+1. Connect the embedded device's ethernet to your LAN
+2. Run: :guilabel:`dhclient` on the embedded target
+3. Run: :guilabel:`apt-get update`
+4. Run: :guilabel:`apt-get install <software component>` to install additional software
+   e.g.: :guilabel:`apt-get install openssh-sshd openssh-scp`
 
 ------------
    
