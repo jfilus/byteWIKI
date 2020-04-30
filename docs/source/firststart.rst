@@ -74,8 +74,23 @@ Connecting the Hardware
 ------------
 
 
-Bring-up the system
+***********
+Bring-up byteDEVKIT STM32MP1
+***********
+
+How do I connect to byteDEVKIT using the serial console?
 ------------
+
+-  **in short:**
+   Use the serial port to connect our embedded devices:
+    • Connect the debug cable to your embedded device and your computer
+    • Start your serial communication program (‹putty›, ‹minicom› or something else)
+    • Set to 115200, 8N1, no flow control
+    • login by user root password rootme
+
+- **in detail:**
+
+
 
 
 How to install additional software
