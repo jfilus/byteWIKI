@@ -112,6 +112,8 @@ in detail:
   
 .. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
   
+  • Click "Open"
+  
 ----------- 
 
   • Power up the byteDEVKIT STM32MP1
@@ -139,7 +141,9 @@ in detail:
   • Open device manager and navigate to "Ports (COM & LPT)"
   • The serial adapter shows up in the device tree: "Prolific USB-to-Serial Comm Port (COM7)"
   • "COM7" is your serial port
-  • Install a serial terminal application, e.g. PuTTY (version 0.59 and newer)
+  • Install a serial terminal application, e.g. PuTTY (version 0.59 and newer) :guilabel:`https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html`
+  
+  • Start PuTTY
   
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_4.png
    :scale: 100%
@@ -147,12 +151,14 @@ in detail:
 
 ------------  
 
-  • Click "Serial".
-  • Change "Serial line" to "/dev/ttyUSB0".
+  • Click "Serial"
+  • Change "Serial line" to serial port you found in device manager
   • Change "Speed" to 115200
   • Navigate to "Serial" in the menu "Connection".
   
   .. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
+  
+  • Click "Open"
   
 ----------- 
 
@@ -169,6 +175,8 @@ in detail:
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_6.png
    :scale: 100%
    :align: center
+
+.. Hint::  You are now succesfully connected to the byteDEVKIT STM32MP1
 
 ------------  
 
