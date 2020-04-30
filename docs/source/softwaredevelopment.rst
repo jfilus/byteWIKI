@@ -70,12 +70,9 @@ Check if Cross-compiler is available in environment:
 
    echo $CC
 
-::
+You should see the following output:
 
    arm-poky-linux-gnueabi-gcc -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard
-
-::
-
    -mcpu=cortex-a7
 
 ::
