@@ -89,9 +89,7 @@ in short:
     • Connect the debug cable with the byteDEVKIT STM32MP1 and your computer/laptop
     • Start a serial communication program on your computer/laptop (‹putty›, ‹minicom› or something else)
     • Set to 115200, 8N1, no flow control
-    • login with:
-      :user: root
-      :password: rootme
+    • login with: **user: "root"** and **password: "rootme"**
 
 ==================================
 in detail:
