@@ -156,7 +156,7 @@ in detail:
   • Change "Speed" to 115200
   • Navigate to "Serial" in the menu "Connection"
   
-  .. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
+.. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
   
   • Click "Open"
   
