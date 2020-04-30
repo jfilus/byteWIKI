@@ -97,7 +97,7 @@ in detail:
 
 -  **LINUX**:
 
-  • Start PuTTY.
+  • Start PuTTY
   
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_1.png
    :scale: 100%
@@ -105,10 +105,10 @@ in detail:
 
 ------------  
 
-  • Click "Serial".
-  • Change "Serial line" to "/dev/ttyUSB0".
+  • Click "Serial"
+  • Change "Serial line" to "/dev/ttyUSB0"
   • Change "Speed" to 115200
-  • Navigate to "Serial" in the menu "Connection".
+  • Navigate to "Serial" in the menu "Connection"
   
 .. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
   
@@ -124,13 +124,13 @@ in detail:
 
 ------------
 
-  • Once the login prompt appears, login with user "root" and password "rootme".
+  • Once the login prompt appears, login with user "root" and password "rootme"
   
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_3.png
    :scale: 100%
    :align: center
 
-.. Hint::  You are now succesfully connected to the byteDEVKIT STM32MP1
+.. Note::  You are now succesfully connected to the byteDEVKIT STM32MP1
 
 ------------  
 
@@ -154,7 +154,7 @@ in detail:
   • Click "Serial"
   • Change "Serial line" to serial port you found in device manager
   • Change "Speed" to 115200
-  • Navigate to "Serial" in the menu "Connection".
+  • Navigate to "Serial" in the menu "Connection"
   
   .. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
   
@@ -170,13 +170,13 @@ in detail:
 
 ------------
 
-  Once the login prompt appears, login with user "root" and password "rootme".
+  Once the login prompt appears, login with user "root" and password "rootme"
   
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_6.png
    :scale: 100%
    :align: center
 
-.. Hint::  You are now succesfully connected to the byteDEVKIT STM32MP1
+.. Note::  You are now succesfully connected to the byteDEVKIT STM32MP1
 
 ------------  
 
