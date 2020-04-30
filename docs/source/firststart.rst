@@ -63,9 +63,9 @@ Connecting the Hardware
 
 -  Now you can access the byteDEVKIT STM32MP1 with your laptop.
 
-.. Hint:: For further information refer to: "Software_Development_".
+.. Hint:: For further information refer to: "Bring-up_byteDEVKIT_STM32MP1_".
 
-.. _Software_Development: https://jf-bytewiki.readthedocs.io/en/latest/softwaredevelopment.html#software-development/
+.. _Bring-up_byteDEVKIT_STM32MP1: https://jf-bytewiki.readthedocs.io/en/latest/firststart.html#bring-up-bytedevkit-stm32mp1
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/wiring_10kl.jpg
    :scale: 20%
