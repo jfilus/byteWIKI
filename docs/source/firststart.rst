@@ -85,8 +85,7 @@ How do I connect to byteDEVKIT using the serial console?
 in short:
 ==================================
 
--  **in short:**
-   Use the serial port to connect our embedded devices:
+-  **Use the serial port to connect our embedded devices:**
     • Connect the debug cable to your embedded device and your computer
     • Start your serial communication program (‹putty›, ‹minicom› or something else)
     • Set to 115200, 8N1, no flow control
@@ -96,9 +95,43 @@ in short:
 in detail:
 ==================================
 
+-  **LINUX**:
 
+  Start PuTTY.
+  
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_1.png
+   :scale: 100%
+   :align: center
 
+------------  
 
+  Click "Serial".
+  Change "Serial line" to "/dev/ttyUSB0".
+  Change "Speed" to 115200
+  
+  Navigate to "Serial" in the menu "Connection".
+  
+  .. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
+  
+----------- 
+
+  Power up the byteDEVKIT STM32MP1
+  
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_2.png
+   :scale: 100%
+   :align: center
+
+------------
+
+  Once the login prompt appears, login with user "root" and password "rootme".
+  
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_3.png
+   :scale: 100%
+   :align: center
+
+------------  
+
+  
 How to install additional software
 ------------
 
