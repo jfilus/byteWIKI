@@ -81,10 +81,6 @@ Bring-up byteDEVKIT STM32MP1
 How do I connect to byteDEVKIT using the serial console?
 ------------
 
-==================================
-in short:
-==================================
-
 -  **Use the serial port to connect the byteDEVKIT STM32MP1:**
     • Connect the debug cable with the byteDEVKIT STM32MP1 and your computer/laptop
     • Start a serial communication program on your computer/laptop (‹putty›, ‹minicom› or something else)
@@ -92,12 +88,10 @@ in short:
     • login with: **user: "root"** and **password: "rootme"**
 
 ==================================
-in detail:
+LINUX:
 ==================================
 
--  **LINUX**:
-
-  • Start PuTTY
+• Start PuTTY
   
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_1.png
    :scale: 100%
@@ -132,9 +126,11 @@ in detail:
 
 .. Note::  You are now succesfully connected to the byteDEVKIT STM32MP1
 
-------------  
+------------ 
 
--  **WINDOWS**:
+==================================
+WINDOWS:
+==================================
 
   • Connect the USB serial adapter to the computer
   • Windows installs the driver automatically (if the windows doesn´t install the driver reconnect the serial adapter cable)
