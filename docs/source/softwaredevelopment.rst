@@ -76,9 +76,6 @@ You should see the following output:
 
    arm-poky-linux-gnueabi-gcc -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard
    -mcpu=cortex-a7
-
-::
-
    --sysroot=/opt/poky-bytesatwork/2.7.2/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi
 
 Crosscompile the source code, e.g. by:
