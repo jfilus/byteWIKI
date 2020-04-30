@@ -68,12 +68,11 @@ Check if Cross-compiler is available in environment:
 
    echo $CC
 
+You should see the following output:
+
 ::
 
    arm-poky-linux-gnueabi-gcc -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard
-
-::
-
    --sysroot=/opt/poky-bytesatwork/3.0.1/sysroots/armv7at2hf-neon-poky-linux-gnueabi
 
 Cross-compile the source code, e.g. by:
