@@ -73,9 +73,6 @@ Connecting the Hardware
    
 ------------
 
-==================================
-Bring-up byteDEVKIT STM32MP1
-==================================
 
 ***********
 Bring-up byteDEVKIT STM32MP1
@@ -84,6 +81,10 @@ Bring-up byteDEVKIT STM32MP1
 How do I connect to byteDEVKIT using the serial console?
 ------------
 
+==================================
+in short:
+==================================
+
 -  **in short:**
    Use the serial port to connect our embedded devices:
     • Connect the debug cable to your embedded device and your computer
@@ -91,7 +92,9 @@ How do I connect to byteDEVKIT using the serial console?
     • Set to 115200, 8N1, no flow control
     • login by user root password rootme
 
-- **in detail:**
+==================================
+in detail:
+==================================
 
 
 
