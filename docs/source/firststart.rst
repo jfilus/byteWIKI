@@ -90,8 +90,8 @@ in short:
     • Start a serial communication program on your computer/laptop (‹putty›, ‹minicom› or something else)
     • Set to 115200, 8N1, no flow control
     • login by:
-      user: "root"
-      password: "rootme"
+      :user: root
+      :password: rootme
 
 ==================================
 in detail:
