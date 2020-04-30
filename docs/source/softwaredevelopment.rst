@@ -447,13 +447,3 @@ Check generated binary:
 2. Run: :guilabel:`dhclient` on the embedded target
 3. determine the embedded target ip address by :guilabel:`ip addr show`
 4. scp your binary, e.g. hello world to the target by :guilabel:`scp helloworld root@<ip address of target>:/tmp`
-    
-===============================================
-9. How to install additional software using apt
-===============================================
-
-1. Connect the embedded device's ethernet to your LAN
-2. Run: :guilabel:`dhclient` on the embedded target
-3. Run: :guilabel:`apt-get update`
-4. Run: :guilabel:`apt-get install <software component>` to install additional software
-   e.g.: :guilabel:`apt-get install openssh-sshd openssh-scp`
