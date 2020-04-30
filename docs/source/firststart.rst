@@ -97,9 +97,51 @@ in detail:
 
 -  **LINUX**:
 
-  Start PuTTY.
+  • Start PuTTY.
   
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_1.png
+   :scale: 100%
+   :align: center
+
+------------  
+
+  • Click "Serial".
+  • Change "Serial line" to "/dev/ttyUSB0".
+  • Change "Speed" to 115200
+  • Navigate to "Serial" in the menu "Connection".
+  
+.. Hint::  make sure you have Data bits set to 8, Stop bits set to 1, Parity to None, Flow control to None
+  
+----------- 
+
+  • Power up the byteDEVKIT STM32MP1
+  
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_2.png
+   :scale: 100%
+   :align: center
+
+------------
+
+  • Once the login prompt appears, login with user "root" and password "rootme".
+  
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_3.png
+   :scale: 100%
+   :align: center
+
+.. Hint::  You are now succesfully connected to the byteDEVKIT STM32MP1
+
+------------  
+
+-  **WINDOWS**:
+
+  • Connect the USB serial adapter to the computer
+  • Windows installs the driver automatically (if the windows doesn´t install the driver reconnect the serial adapter cable)
+  • Open device manager and navigate to "Ports (COM & LPT)"
+  • The serial adapter shows up in the device tree: "Prolific USB-to-Serial Comm Port (COM7)"
+  • "COM7" is your serial port
+  • Install a serial terminal application, e.g. PuTTY (version 0.59 and newer)
+  
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_4.png
    :scale: 100%
    :align: center
 
@@ -116,7 +158,7 @@ in detail:
 
   Power up the byteDEVKIT STM32MP1
   
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_2.png
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_5.png
    :scale: 100%
    :align: center
 
@@ -124,7 +166,7 @@ in detail:
 
   Once the login prompt appears, login with user "root" and password "rootme".
   
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_3.png
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Putty_6.png
    :scale: 100%
    :align: center
 
