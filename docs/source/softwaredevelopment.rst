@@ -467,6 +467,28 @@ Check generated binary:
 
       bitbake devbase-image-bytesatwork -c populate_sdk
 
+8.3 How to modify your toolchain
+--------------------------------
+
+   The toolchain for all our embedded devices are generated out of the minimal-image recipe. If you want to add additional libraries and development headers to your custom toolchain, you have to modify the minimal-image recipe. It can be found under :guilabel:`sources/meta-bytesatwork/recipes-core/images`
+
+   For example if you want to develop your own ftp client and you need libftp and the corresponding header files, edit the minimal-image recipe :guilabel:`bytesatwork-minimal-image.bb` and add `ftplib` to the `IMAGE_INSTALL` variable.
+
+   This will provide the ftplib libraries and development headers in the toolchain. After adding additional software components, the toolchain needs to be rebuilt by:
+
+   ::
+
+      bitbake devbase-image-bytesatwork -c populate_sdk
+
+   The newely generated toolchain will be available under:
+
+   ::
+
+      tmp/deploy/sdk
+
+   For additional information, please visit: https://www.yoctoproject.org/docs/3.0.1/overview-manual/overview-manual.html#cross-development-toolchain-generation
+
+
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
    :scale: 100%
