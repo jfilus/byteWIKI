@@ -183,20 +183,24 @@ How to install additional software using apt
 
 .. Hint::  Follow the link for additional information about "apt": https://help.ubuntu.com/community/AptGet/Howto
 
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-cache_nodejs.png
-   :scale: 100%
-   :align: center
-   
-.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-get_install_wide.png
-   :scale: 100%
-   :align: center
 
 1. Connect the embedded device's ethernet to your LAN
 2. Run: :guilabel:`dhclient` on the embedded target
 3. Run: :guilabel:`apt-get update`
-4. Run: :guilabel:`apt-get install <software component>` to install additional software
-   e.g.: :guilabel:`apt-get install openssh-sshd openssh-scp`
+4. Run: :guilabel:`apt-cache search <software component>` to search for available packages e.g.: apt-cache search nodejs
 
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-cache_nodejs.png
+   :scale: 100%
+   :align: center
+   
+------------
+
+5. Run: :guilabel:`apt-get install <software component>` to install additional software
+   e.g.: :guilabel:`apt-get install nodejs`
+   
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-get_install_wide.png
+   :scale: 100%
+   :align: center
 
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
