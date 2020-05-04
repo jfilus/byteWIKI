@@ -90,6 +90,8 @@ Check generated binary:
 
    file helloworld
 
+The output that is shown in prompt afterwards:
+
 ::
 
    helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
@@ -126,6 +128,8 @@ Check generated binary:
 ::
 
    file helloworld
+
+The output that is shown in prompt afterwards:
 
 ::
 
