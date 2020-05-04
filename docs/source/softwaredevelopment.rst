@@ -183,7 +183,7 @@ The output that is shown in prompt afterwards:
 ==============================
 
 .. Attention::
-  - You need a micro-SD card with **minimal 8GB** capacity.
+  - You need is a micro-SD card with **minimal 8GB** capacity.
   - **All existing data** on the micro-SD card will be lost.
   - **Do not format** the micro-SD card before flashing.
 
