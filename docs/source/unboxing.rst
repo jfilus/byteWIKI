@@ -1,6 +1,6 @@
-********************
+****************************
 Unboxing byteDEVKIT STM32MP1
-********************
+****************************
 
 **This guide delivers new users a brief overview of the package content and the functions of our byteDEVKIT STM32MP1. When unboxing you should find the following components:**
 
@@ -46,7 +46,7 @@ Unboxing byteDEVKIT STM32MP1
 
 
 Technical overview byteDEVKIT STM32MP1
-------------
+--------------------------------------
 
 -  The byteDEVKIT STM32MP1 offers the following connectors on the front side:
 
@@ -88,7 +88,7 @@ Technical overview byteDEVKIT STM32MP1
 
    
 Unboxing Video Tutorial
-------------
+-----------------------
 
 .. raw:: html
 
