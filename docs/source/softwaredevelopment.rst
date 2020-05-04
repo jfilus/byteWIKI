@@ -141,10 +141,8 @@ Check generated binary:
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/ip_addr_show_28.png
    :scale: 100%
-   :align: center
+   :align: left
    
----------------
-
 4. scp your binary, e.g. hello world to the target by :guilabel:`scp helloworld root@<ip address of target>:/tmp`
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/scp2.png
