@@ -187,7 +187,8 @@ How to install additional software using apt
 1. Connect the embedded device's ethernet to your LAN
 2. Run: :guilabel:`dhclient` on the embedded target
 3. Run: :guilabel:`apt-get update`
-4. Run: :guilabel:`apt-cache search <software component>` to search for available packages e.g.: apt-cache search nodejs
+4. Run: :guilabel:`apt-cache search <software component>` to search for available packages
+   e.g.: :guilabel:`apt-cache search nodejs`
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-cache_nodejs.png
    :scale: 100%
