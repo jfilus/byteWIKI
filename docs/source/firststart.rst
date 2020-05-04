@@ -183,6 +183,14 @@ How to install additional software using apt
 
 .. Hint::  Follow the link for additional information about "apt": https://help.ubuntu.com/community/AptGet/Howto
 
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-cache_nodejs.png
+   :scale: 100%
+   :align: center
+   
+.. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-get_install_wide.png
+   :scale: 100%
+   :align: center
+
 1. Connect the embedded device's ethernet to your LAN
 2. Run: :guilabel:`dhclient` on the embedded target
 3. Run: :guilabel:`apt-get update`
