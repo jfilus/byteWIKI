@@ -309,6 +309,8 @@ The output that is shown in prompt afterwards:
 
       tmp/deploy/images/bytedevkit
 
+.. Hint:: For additional information about yocto images and howto build them, please visit: https://www.yoctoproject.org/docs/3.0/mega-manual/mega-manual.html#brief-building-your-image
+
 -  **Yocto 2.7**
 
    Use repo to download all necessary repositories:
@@ -368,6 +370,8 @@ The output that is shown in prompt afterwards:
    ::
 
       tmp/deploy/images/bytepanel
+
+.. Hint:: For additional information about yocto images and howto build them, please visit: https://www.yoctoproject.org/docs/3.0/mega-manual/mega-manual.html#brief-building-your-image
 
 -  **Yocto 2.7**
 
