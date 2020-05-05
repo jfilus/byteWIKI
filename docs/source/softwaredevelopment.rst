@@ -137,8 +137,7 @@ The output that is shown in prompt afterwards:
 ==========================================
 
 1. Connect the embedded device's ethernet to your LAN
-2. Run: :guilabel:`dhclient` on the embedded target
-3. determine the embedded target ip address by :guilabel:`ip addr show`
+2. determine the embedded target ip address by :guilabel:`ip addr show`
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/ip_addr_show_28.png
    :scale: 100%
@@ -146,7 +145,7 @@ The output that is shown in prompt afterwards:
    
 ---------------
    
-4. scp your binary, e.g. hello world to the target by :guilabel:`scp helloworld root@<ip address of target>:/tmp`
+3. scp your binary, e.g. hello world to the target by :guilabel:`scp helloworld root@<ip address of target>:/tmp`
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/scp2.png
    :scale: 100%

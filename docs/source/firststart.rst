@@ -1,11 +1,11 @@
-***********
+*******************************
 First start byteDEVKIT STM32MP1
-***********
+*******************************
 
 **This guide helps with the first start of the byteDEVKIT STM32MP1:**
 
 Connecting the Hardware and first Booting
-------------
+-----------------------------------------
 -  Prepare the USB serial cable for connection
 -  Locate the black cable of the serial connector.
 
@@ -74,12 +74,12 @@ Connecting the Hardware and first Booting
 ------------
 
 
-***********
+****************************
 Bring-up byteDEVKIT STM32MP1
-***********
+****************************
 
 How do I connect to byteDEVKIT using the serial console?
-------------
+--------------------------------------------------------
 
 -  **Use the serial port to connect the byteDEVKIT STM32MP1:**
     • Connect the debug cable with the byteDEVKIT STM32MP1 and your computer/laptop
@@ -87,9 +87,9 @@ How do I connect to byteDEVKIT using the serial console?
     • Set to 115200, 8N1, no flow control
     • login with: **user: "root"** and **password: "rootme"**
 
-==================================
-LINUX:
-==================================
+=====
+LINUX
+=====
 
 • Start PuTTY
   
@@ -128,9 +128,9 @@ LINUX:
 
 ------------ 
 
-==================================
-WINDOWS:
-==================================
+=======
+WINDOWS
+=======
 
   • Connect the USB serial adapter to the computer
   • Windows installs the driver automatically (if the windows doesn´t install the driver reconnect the serial adapter cable)
@@ -179,15 +179,14 @@ WINDOWS:
   
 
 How to install additional software using apt
-------------
+--------------------------------------------
 
 .. Hint::  Follow the link for additional information about "apt": https://help.ubuntu.com/community/AptGet/Howto
 
 
 1. Connect the embedded device's ethernet to your LAN
-2. Run: :guilabel:`dhclient` on the embedded target
-3. Run: :guilabel:`apt-get update`
-4. Run: :guilabel:`apt-cache search <software component>` to search for available packages
+2. Run: :guilabel:`apt-get update`
+3. Run: :guilabel:`apt-cache search <software component>` to search for available packages
    e.g.: :guilabel:`apt-cache search nodejs`
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/apt-cache_nodejs.png
