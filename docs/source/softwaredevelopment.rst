@@ -143,14 +143,16 @@ The output that is shown in prompt afterwards:
    :scale: 100%
    :align: center
    
----------------
-   
 3. scp your binary, e.g. hello world to the target by :guilabel:`scp helloworld root@<ip address of target>:/tmp`
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/05/scp2.png
    :scale: 100%
    :align: center
 
+4. run `chmod +x` on the target to make your binary executable: :guilabel:`chmod +x /<path>/<binary name>`
+5. run your binary on the target: :guilabel:`/<path>/<binary name>`
+
+---------------
 
 ===============================================
 5. Where do you get the Image for your SD-Card?
@@ -517,15 +519,15 @@ The output that is shown in prompt afterwards:
 8.3 How to modify your toolchain
 --------------------------------
 
-   The toolchain for all our embedded devices are generated out of the minimal-image recipe. If you want to add additional libraries and development headers to your custom toolchain, you have to modify the minimal-image recipe. It can be found under :guilabel:`sources/meta-bytesatwork/recipes-core/images`
+   Currently the bytesatwork toolchain is generated out of the bytesatwork-minimal-image recipe. If you want to add additional libraries and development headers to customize the toolchain, you need to modify the bytesatwork-minimal-image recipe. It can be found under :guilabel:`sources/meta-bytesatwork/recipes-core/images`
 
-   For example if you want to develop your own ftp client and you need libftp and the corresponding header files, edit the minimal-image recipe :guilabel:`bytesatwork-minimal-image.bb` and add `ftplib` to the `IMAGE_INSTALL` variable.
+   For example if you want to develop your own ftp client and you need libftp and the corresponding header files, edit the recipe :guilabel:`bytesatwork-minimal-image.bb` and add `ftplib` to the `IMAGE_INSTALL` variable.
 
    This will provide the ftplib libraries and development headers in the toolchain. After adding additional software components, the toolchain needs to be rebuilt by:
 
    ::
 
-      bitbake devbase-image-bytesatwork -c populate_sdk
+      bitbake bytesatwork-minimal-image -c populate_sdk
 
    The newely generated toolchain will be available under:
 
@@ -533,7 +535,7 @@ The output that is shown in prompt afterwards:
 
       tmp/deploy/sdk
 
-   For additional information, please visit: https://www.yoctoproject.org/docs/3.0.1/overview-manual/overview-manual.html#cross-development-toolchain-generation
+   For additional information, please visit: https://www.yoctoproject.org/docs/3.0.2/overview-manual/overview-manual.html#cross-development-toolchain-generation
 
 
 
