@@ -26,6 +26,7 @@ The entire development lifecycle is done in-house with transparent project manag
 -  **Yocto 2.7**
    Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-2.7.3.sh
 
+---------------
 
 ====================================
 2. How do you install the toolchain?
@@ -49,6 +50,8 @@ Download the Toolchain and install it
    ::
 
       ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
+
+---------------
 
 ================================
 3. How do you use the toolchain?
@@ -132,6 +135,8 @@ The output that is shown in prompt afterwards:
 
    helloworld: ELF 32-bit LSB pie executable, ARM, EABI5 version 1
 
+---------------
+
 ==========================================
 4. How to bring your binary to the target?
 ==========================================
@@ -178,6 +183,7 @@ The output that is shown in prompt afterwards:
 -  **Yocto 2.7**
    Downlad LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/2.7/devbase-image-bytesatwork-bytepanel-emmc-20190729194430.sdimg.gz
 
+---------------
 
 ==============================
 6. How do you flash the Image?
@@ -264,6 +270,7 @@ The output that is shown in prompt afterwards:
   
      gunzip -c <file.sdimg.gz> | dd of=/dev/mmcblk<X> bs=8M conv=fdatasync status=progress
 
+---------------
 
 =============================
 7. How do you build an image?
@@ -424,6 +431,7 @@ The output that is shown in prompt afterwards:
    :guilabel:`meta-bytesatwork/recipes-core/images/bytesatwork-minimal-image.bb`. 
    Increase the size if necessary.
 
+---------------
 
 ================================
 8. How do you build a toolchain?
@@ -542,3 +550,5 @@ The output that is shown in prompt afterwards:
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
    :scale: 100%
    :align: center
+
+---------------
