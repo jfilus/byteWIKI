@@ -20,7 +20,7 @@ The entire development lifecycle is done in-house with transparent project manag
 -------------
 
 -  **Yocto 3.0**
-   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/3.0/poky-bytesatwork-glibc-x86_64-bytesatwork-minimal-image-armv7at2hf-neon-bytepanel-emmc-toolchain-3.0.2.sh
   
 
 -  **Yocto 2.7**
@@ -49,7 +49,7 @@ Download the Toolchain and install it
 
    ::
 
-      ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
+      ./poky-bytesatwork-glibc-x86_64-bytesatwork-minimal-image-armv7at2hf-neon-bytepanel-emmc-toolchain-3.0.2.sh
 
 .. Hint:: If you encounter problems when trying to install the toolchain, make sure the downloaded toolchain is executable. Run :guilabel:`chmod +x /<path>/<toolchain-file>.sh` to make it executable.
 
@@ -105,7 +105,7 @@ Source the Toolchain
 
 ::
 
-   source /opt/poky-bytesatwork/3.0.1/environment-setup-armv7at2hf-neon-poky-linux-gnueabi
+   source /opt/poky-bytesatwork/3.0.2/environment-setup-armv7at2hf-neon-poky-linux-gnueabi
 
 Check if Cross-compiler is available in environment:
 
@@ -117,7 +117,8 @@ You should see the following output:
 
 ::
 
-   arm-poky-linux-gnueabi-gcc -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard --sysroot=/opt/poky-bytesatwork/3.0.1/sysroots/armv7at2hf-neon-poky-linux-gnueabi
+   arm-poky-linux-gnueabi-gcc -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard --sysroot=/opt/poky-bytesatwork/3.0.2/sysroots/armv7at2hf-neon-poky-linux-gnueabi
+
 
 Cross-compile the source code, e.g. by:
 
@@ -179,8 +180,7 @@ The output that is shown in prompt afterwards:
 -------------
 
 -  **Yocto 3.0**
-   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/3.0/bytesatwork-minimal-image-bytepanel-emmc-20200324165059.rootfs.wic.gz
-  
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/3.0/bytesatwork-minimal-image-bytepanel-emmc.wic.gz
 
 -  **Yocto 2.7**
    Downlad LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/2.7/devbase-image-bytesatwork-bytepanel-emmc-20190729194430.sdimg.gz
