@@ -79,7 +79,7 @@ You should see the following output:
 
 ::
 
-   arm-poky-linux-gnueabi-gcc -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky-bytesatwork/3.0.2/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi
+   arm-poky-linux-gnueabi-gcc -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -fstack-protector-strong -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/poky-bytesatwork/3.0.2/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi
 
 Crosscompile the source code, e.g. by:
 
@@ -411,7 +411,12 @@ The output that is shown in prompt afterwards:
 
   Add the desired software-package to :guilabel:`IMAGE_INSTALL` variable, for example add :guilabel:`net-tools` to :guilabel:`bytesatwork-minimal-image.bb`
 
-  Rebuild the image.
+  Rebuild the image by: 
+  
+  ::
+
+    bitbake bytesatwork-minimal-image
+
 
 7.4 How to rename the image
 ---------------------------
