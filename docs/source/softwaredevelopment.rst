@@ -11,20 +11,20 @@ The entire development lifecycle is done in-house with transparent project manag
 --------------
 
 -  **Yocto 3.0**
-  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/3.0/poky-bytesatwork-glibc-x86_64-bytesatwork-minimal-image-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-3.0.2.sh
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/3.0/poky-bytesatwork-glibc-x86_64-bytesatwork-minimal-image-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-3.0.2.sh
 
 -  **Yocto 2.7**
-  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-2.7.1.sh
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-cortexa7t2hf-neon-vfpv4-bytedevkit-toolchain-2.7.1.sh
 
 1.2 bytePANEL
 -------------
 
 -  **Yocto 3.0**
-  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
   
 
 -  **Yocto 2.7**
-  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-2.7.3.sh
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-2.7.3.sh
 
 
 ====================================
@@ -160,21 +160,21 @@ The output that is shown in prompt afterwards:
 ---------------
 
 -  **Yocto 3.0**
-  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/3.0/bytesatwork-minimal-image-bytedevkit.wic.gz 
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/3.0/bytesatwork-minimal-image-bytedevkit.wic.gz 
 
 -  **Yocto 2.7**
-  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/2.7/flashlayout_bytesatwork-minimal-image_FlashLayout_sdcard_stm32mp157c-bytedevkit.raw.gz
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m5/2.7/flashlayout_bytesatwork-minimal-image_FlashLayout_sdcard_stm32mp157c-bytedevkit.raw.gz
 
 
 5.2 bytePANEL
 -------------
 
 -  **Yocto 3.0**
-  Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/3.0/bytesatwork-minimal-image-bytepanel-emmc-20200324165059.rootfs.wic.gz
+   Download LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/3.0/bytesatwork-minimal-image-bytepanel-emmc-20200324165059.rootfs.wic.gz
   
 
 -  **Yocto 2.7**
-  Downlad LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/2.7/devbase-image-bytesatwork-bytepanel-emmc-20190729194430.sdimg.gz
+   Downlad LINK: https://download.bytesatwork.io/transfer/bytesatwork/m2/2.7/devbase-image-bytesatwork-bytepanel-emmc-20190729194430.sdimg.gz
 
 
 ==============================
@@ -191,8 +191,7 @@ The output that is shown in prompt afterwards:
 
 -  **Yocto 3.0**
 
-
-   WINDOWS:
+   WINDOWS
 
    ::
 
@@ -200,7 +199,7 @@ The output that is shown in prompt afterwards:
       Write the resulting <file.wic> to the uSD-card with a tool like Roadkils Disk Image: https://www.roadkil.net/program.php?ProgramID=12
 
    
-   LINUX:
+   LINUX
 
    ::
 
@@ -212,14 +211,14 @@ The output that is shown in prompt afterwards:
 
 -  **Yocto 2.7**
 
-   WINDOWS:
+   WINDOWS
    
    ::
    
      Unzip the <file.raw.gz> (e.g. with 7-zip)
      Write the resulting <file.raw> to the uSD-card with a tool like Roadkils Disk Image: https://www.roadkil.net/program.php?ProgramID=12
 
-   LINUX:
+   LINUX
    
    ::
    
@@ -230,7 +229,7 @@ The output that is shown in prompt afterwards:
 
 -  **Yocto 3.0**
 
-   WINDOWS:
+   WINDOWS
      
    ::
      
@@ -238,9 +237,9 @@ The output that is shown in prompt afterwards:
      Write the resulting <file.wic> to the uSD-card with a tool like Roadkils Disk Image: https://www.roadkil.net/program.php?ProgramID=12
 
 
-  LINUX:
+   LINUX
   
-  ::
+   ::
   
      gunzip -c <file.wic.gz> | dd of=/dev/mmcblk<X> bs=8M conv=fdatasync status=progress
   
@@ -250,16 +249,16 @@ The output that is shown in prompt afterwards:
   
 -  **Yocto 2.7**
 
-  WINDOWS:
+   WINDOWS
   
-  ::
+   ::
   
      Unzip the <file.sdimg.gz> (e.g. with 7-zip)
      Write the resulting <file.sdimg> to the uSD-card with a tool like Roadkils Disk Image[https://www.roadkil.net/program.php?ProgramID=12]
 
-  LINUX:
+   LINUX
   
-  ::
+   ::
   
      gunzip -c <file.sdimg.gz> | dd of=/dev/mmcblk<X> bs=8M conv=fdatasync status=progress
 
