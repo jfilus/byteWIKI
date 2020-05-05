@@ -270,6 +270,34 @@ The output that is shown in prompt afterwards:
 7.1 byteDEVKIT
 --------------
 
+-  **Yocto 3.0**
+
+   Use repo to download all necessary repositories:
+
+   ::
+
+      repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b zeus
+      repo sync
+
+   If those commands are completed successfully, the following command
+   will setup a Yocto Project environment for byteDEVKIT:
+
+   ::
+
+      MACHINE=bytedevkit DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+
+   The final command builds the development image:
+
+   ::
+
+      bitbake bytesatwork-minimal-image
+
+   The output is found in:
+
+   ::
+
+      tmp/deploy/images/bytedevkit
+
 -  **Yocto 2.7**
 
    Use repo to download all necessary repositories:
@@ -402,6 +430,26 @@ The output that is shown in prompt afterwards:
 8.1 byteDEVKIT
 --------------
 
+-  **Yocto 3.0**
+
+   ::
+
+      repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b zeus
+      repo sync
+
+   If those commands are completed successfully, the following command
+   will setup a Yocto Project environment for byteDEVKIT:
+
+   ::
+
+      MACHINE=bytedevkit DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+
+   The final command builds an installable toolchain:
+
+   ::
+
+      bitbake bytesatwork-minimal-image -c populate_sdk
+
 -  **Yocto 2.7**
 
    ::
@@ -444,7 +492,7 @@ The output that is shown in prompt afterwards:
 
    ::
 
-      bitbake devbase-image-bytesatwork -c populate_sdk
+      bitbake bytesatwork-minimal-image -c populate_sdk
 
 -  **Yocto 2.7**
 
