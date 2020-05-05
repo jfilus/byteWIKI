@@ -51,6 +51,8 @@ Download the Toolchain and install it
 
       ./poky-bytesatwork-glibc-x86_64-devbase-image-bytesatwork-armv7at2hf-neon-bytepanel-toolchain-3.0.1.sh
 
+.. Hint:: If you encounter problems when trying to install the toolchain, make sure the downloaded toolchain is executable. Run :guilabel:`chmod +x /<path>/<toolchain-file>.sh` to make it executable.
+
 ---------------
 
 ================================
