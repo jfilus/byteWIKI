@@ -556,7 +556,29 @@ The output that is shown in prompt afterwards:
 
    For additional information, please visit: https://www.yoctoproject.org/docs/3.0.2/overview-manual/overview-manual.html#cross-development-toolchain-generation
 
+8.4 Troubleshooting
+-------------------
 
+-  **Errors when building the toolchain**
+
+   If you get the error below, please revert commit: :guilabel:`179c5cb7fd0f06970135187f1203507aa55d6bde` in the poky repository (sources/poky). See also Bug 13338 https://bugzilla.yoctoproject.org/show_bug.cgi?id=13338.
+
+.. code-block:: SQL
+   :emphasize-lines: 11,12
+
+   ERROR: bytesatwork-minimal-image-1.0-r0 do_populate_sdk: Unable to install packages. Command '/home/daniel/workspace/bytesatwork/yocto/ti-m2-zeus/build/tmp/work/bytepanel_emmc-poky-linux-gnueabi/bytesatwork-minimal-image/1.0-r0/recipe-sysroot-native/usr/bin/apt-get  install --force-yes --allow-unauthenticated openssh-ssh openssh-sshd apt dpkg coreutils base-passwd dhcp-client target-sdk-provides-dummy shadow openssh-scp packagegroup-core-standalone-sdk-target packagegroup-core-boot vim openssh-sftp-server run-postinsts' returned 100:
+   Reading package lists...
+   Building dependency tree...
+   Reading state information...
+   Some packages could not be installed. This may mean that you have
+   requested an impossible situation or if you are using the unstable
+   distribution that some required packages have not yet been created
+   or been moved out of Incoming.
+   The following information may help to resolve the situation:
+
+   The following packages have unmet dependencies:
+    target-sdk-provides-dummy : Conflicts: coreutils
+   E: Unable to correct problems, you have held broken packages.
 
 .. image:: https://www.bytesatwork.io/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-20-um-19.41.44.jpg
    :scale: 100%
