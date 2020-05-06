@@ -563,7 +563,7 @@ The output that is shown in prompt afterwards:
 
    If you get the error below, please revert commit: :guilabel:`179c5cb7fd0f06970135187f1203507aa55d6bde` in the poky repository (sources/poky). See also Bug 13338 https://bugzilla.yoctoproject.org/show_bug.cgi?id=13338.
 
-.. code-block:: SQL
+.. code-block:: none
    :emphasize-lines: 11,12
 
    ERROR: bytesatwork-minimal-image-1.0-r0 do_populate_sdk: Unable to install packages. Command '/home/daniel/workspace/bytesatwork/yocto/ti-m2-zeus/build/tmp/work/bytepanel_emmc-poky-linux-gnueabi/bytesatwork-minimal-image/1.0-r0/recipe-sysroot-native/usr/bin/apt-get  install --force-yes --allow-unauthenticated openssh-ssh openssh-sshd apt dpkg coreutils base-passwd dhcp-client target-sdk-provides-dummy shadow openssh-scp packagegroup-core-standalone-sdk-target packagegroup-core-boot vim openssh-sftp-server run-postinsts' returned 100:
